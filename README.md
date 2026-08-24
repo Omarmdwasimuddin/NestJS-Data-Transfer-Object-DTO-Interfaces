@@ -20,6 +20,10 @@ nest g service customer
 
 ### `customer.interface.ts`
 ```bash
-
+export interface Customer{
+    id: number;
+    name: string;
+    age: number;
+}
 ```
 ---
