@@ -93,6 +93,12 @@ export class CustomerController {
 > GET
 >
 > <img width="862" height="685" alt="image" src="https://github.com/user-attachments/assets/8692003d-4d82-4199-bae9-b7d4752c7ebe" />
+>
+> ---
+> POST
+> 
+> <img width="868" height="546" alt="image" src="https://github.com/user-attachments/assets/ca4d4f8e-050b-4168-b464-2f2d59becfc6" />
+
 
 
 
