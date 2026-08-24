@@ -18,6 +18,7 @@ nest g service customer
 
 > <img width="375" height="89" alt="image" src="https://github.com/user-attachments/assets/53823910-f4c1-4422-8467-1938a6540d8b" />
 
+### `customer.interface.ts`
 ```bash
 
 ```
