@@ -66,6 +66,36 @@ export class CustomerService {
 ---
 
 
+### `customer.controller.ts`
+```bash
+import { Body, Controller, Get, Post } from '@nestjs/common';
+import { CustomerService } from './customer.service';
+import { CreateCustomerDto } from './dto/create-customer.dto';
+
+@Controller('customer')
+export class CustomerController {
+    constructor(private readonly customerService: CustomerService) {};
+
+    @Get()
+    getCustomers(){
+        return this.customerService.getAllCustomers();
+    }
+
+    @Post()
+    addCustomer(@Body() createCustomerDto: CreateCustomerDto) {
+        return this.customerService.addCustomer(createCustomerDto);
+    }
+
+}
+```
+---
+> ## OUTPUT
+> GET
+>
+> <img width="862" height="685" alt="image" src="https://github.com/user-attachments/assets/8692003d-4d82-4199-bae9-b7d4752c7ebe" />
+
+
+
 
 
 
